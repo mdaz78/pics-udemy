@@ -3,6 +3,10 @@ import './index.css';
 
 import App from './App';
 
+import { searchImages } from './api';
+
+searchImages();
+
 const rootElement = document.getElementById('root');
 
 const root = ReactDOM.createRoot(rootElement);
